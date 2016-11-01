@@ -1,2 +1,3 @@
 # String_Filter
-python2.7环境下，常见的字符编码归一化处理
+python2.7环境下，常见的字符编码归一化处理及相关小工具
+filter_base中是所需的替换结构

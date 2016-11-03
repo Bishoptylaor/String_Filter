@@ -5,8 +5,8 @@ import traceback
 from HTMLParser import HTMLParser
 from urllib2 import unquote
 
-from transCell.handlers.character_handler.filter_base import all_consealedUni2blank_mapping, common_concealedUni2blank_mapping
-from transCell.handlers.character_handler.filter_base import full_half_mapping, Ch2En_punctuation_mapping
+from filter_base import all_consealedUni2blank_mapping, common_concealedUni2blank_mapping
+from filter_base import full_half_mapping, Ch2En_punctuation_mapping
 
 reg_replace_white_space_obj = re.compile('\s+')
 PUNCTUATION = "(,|\.|:|;|!|~|`|@|#|\$|%|^|&|\*|\(|\)|\-|_|\+|=|\\|\{|\}|\[|\]|<|>|\?|/|\||Ω|●|°|\'|\"|®|©|™|×|÷|，|。|；|？|：|±|²|³|«|¤|¯|»|›|⊥|≤|≥|≠|≡|≈|∝|∼|∴|∠|∨|∞|∀|∈|∉|∋|∅|※)"
